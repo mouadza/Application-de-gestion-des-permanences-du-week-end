@@ -1,0 +1,30 @@
+“”Application de gestion des permanences du week-end””
+index.php: C'est la premiere page qui affiche la permanence du weekend prochain 
+LOGIN:
+//Admin//
+Email: Admin@gmail.com
+Password: Admin1234
+Connection.php: Page qui contient la classe de la connection 
+database.php: La creation de base de donnee et les tables
+login.php: La page de l'authentification
+session.php: Le code en backend qui gere l'authentification avec creation d'un session
+crud.php: Le code en backend qui contient les operations de (creer, lire, modifier) pour toutes les membres
+logout.php: La page detruire la session, puis redirection a la page de login
+weekendPerm.php: Le code en backend qui gere l'affectation et la rotation par order a des collaborateurs pour la permanence
+//////////////Les Pages de L'Adminstrateur:
+admin.php: c'est home Page
+adminProfile.php: c'est page de Profile
+secr.php: page de gestion des secretaire
+editSec.php: page d'edit secretaire
+deleteSec.php: page de supprimer secretaire
+collab.php: page de gestion des collaborateurs
+editCollab.php: page d'edit collaborateur
+deleteCollab.php: page de supprimer collaborateur
+//////////////Les Pages du secretaire:
+secretaire.php: c'est home Page
+secProfile.php: c'est page de Profile
+collabSec.php: page de gestion des collaborateurs
+editCollabBySecr.php: page d'edit collaborateur
+deleteCollabBySecr.php: page de supprimer collaborateur
+//////Javascript
+script.js: C'est le script qui gere les fenetres pop-up et la refresh automatique lors de l'ajout 
